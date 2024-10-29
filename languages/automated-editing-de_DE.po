@@ -1,0 +1,597 @@
+# Copyright (C) 2012 Automated Editing
+# This file is distributed under the same license as the Automated Editing package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Automated Editing 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/automated-editing\n"
+"POT-Creation-Date: 2016-04-09 11:58+0200\n"
+"PO-Revision-Date: 2016-04-09 11:59+0200\n"
+"Last-Translator: Stefan Crämer <translate@atelier-fuenf.de>\n"
+"Language-Team: Atelier 5 <translate@atelier-fuenf.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: automated-editing.php:109
+msgid "FAQ"
+msgstr "FAQ"
+
+#: automated-editing.php:110
+msgid "Donate"
+msgstr "Spenden"
+
+#: automated-editing.php:120 class-lib/A5_OptionPageClass.php:31
+#: class-lib/AED_AdminClass.php:325 class-lib/AED_AdminClass.php:336
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: class-lib/A5_OptionPageClass.php:146
+msgid "Click to toggle"
+msgstr "Zum Umschalten klicken"
+
+#: class-lib/A5_OptionPageClass.php:387
+msgid "Not set"
+msgstr "Nicht gesetzt"
+
+#: class-lib/AED_AdminClass.php:90
+msgid "How long should the excerpt be?"
+msgstr "Wie lang sollte der Auszug sein?"
+
+#: class-lib/AED_AdminClass.php:92
+msgid "Do you want to count words, sentences or letters?"
+msgstr "Sollten Wörter, Sätze oder Zeichen gezählt werden?"
+
+#: class-lib/AED_AdminClass.php:94
+msgid "Offset (how many sentences should be ignored in the beginning):"
+msgstr "Offset (wieviele Sätze werden am Anfang des Auszugs ignoriert):"
+
+#: class-lib/AED_AdminClass.php:96
+msgid "Should the plugin insert the &#39;more&#39; tag as well?"
+msgstr "Soll das Plugin auch das &#39;more&#39; tag setzen?"
+
+#: class-lib/AED_AdminClass.php:98
+msgid "After how many sentences do you want to insert the &#39;more&#39; tag?"
+msgstr "Nach wievielen Sätzen soll das &#39;more&#39; tag gesetzt werden?"
+
+#: class-lib/AED_AdminClass.php:100
+msgid "Should the plugin attach the post thumbnail as well?"
+msgstr "Soll das Plugin auch das Thumbnail setzen?"
+
+#: class-lib/AED_AdminClass.php:102
+msgid "Use a default image as thumbnail (if there&#39;s no thumbnail defined)."
+msgstr ""
+"Verwende ein Standard-Bild als Thumbnail (wenn kein Thumbnail definiert wurde)."
+
+#: class-lib/AED_AdminClass.php:104
+msgid ""
+"Should the plugin automatically create the meta description for the Yoast WPSEO "
+"plugin as well?"
+msgstr ""
+"Soll das Plugin auch automatisch die Meta-Beschreibung für das Yoast WPSEO-"
+"Plugin kreieren?"
+
+#: class-lib/AED_AdminClass.php:104
+msgid ""
+"For the meta description, Automated Editing will take the same settings as for "
+"the excerpt. However, the description will be limited to 154 letters (plus &#39;"
+"&#8230;&#39;)."
+msgstr ""
+"Für die Meta-Beschreibung wird Automated Editing dieselben Einstellungen nehmen, "
+"wie für den Auszug. Allerdings wird die Beschreibung auf 154 Zeichen (plus &#39;"
+"&#8230;&#39;) limitiert."
+
+#: class-lib/AED_AdminClass.php:106
+msgid "Excerpt"
+msgstr "Auszug"
+
+#: class-lib/AED_AdminClass.php:116
+msgid "entries"
+msgstr "Einträge"
+
+#: class-lib/AED_AdminClass.php:116
+msgid "entry"
+msgstr "Eintrag"
+
+#: class-lib/AED_AdminClass.php:120
+#, php-format
+msgid "Empty debug log (%d %s):"
+msgstr "Debug Log leeren (%d %s):"
+
+#: class-lib/AED_AdminClass.php:122
+msgid "You can empty the debug log here, if necessary."
+msgstr "Falls nötig, kannst du hier das Debug Log leeren."
+
+#: class-lib/AED_AdminClass.php:128 class-lib/AED_AdminClass.php:132
+#: class-lib/AED_AdminClass.php:136 class-lib/AED_AdminClass.php:140
+msgid "Check, to exclude"
+msgstr "Anklicken, zum ignorieren"
+
+#: class-lib/AED_AdminClass.php:130
+msgid "Yoast WPSEO Meta Description"
+msgstr "Yoast WPSEO Meta-Beschreibung"
+
+#: class-lib/AED_AdminClass.php:134
+msgid "More Tag"
+msgstr "More Tag (Weiterlesen-Link)"
+
+#: class-lib/AED_AdminClass.php:138
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: class-lib/AED_AdminClass.php:146
+msgid "Choose length of it and whether it counts sentences, words or letters."
+msgstr "Wähle seine Länge und ob Sätze, Wörter oder Zeichen gezählt werden."
+
+#: class-lib/AED_AdminClass.php:164
+msgid "Sentences"
+msgstr "Sätze"
+
+#: class-lib/AED_AdminClass.php:164
+msgid "Words"
+msgstr "Wörter"
+
+#: class-lib/AED_AdminClass.php:164
+msgid "Letters"
+msgstr "Zeichen"
+
+#: class-lib/AED_AdminClass.php:190
+msgid "Enter a URL"
+msgstr "Gib eine URL an"
+
+#: class-lib/AED_AdminClass.php:194
+msgid "Select Image"
+msgstr "Bild wählen"
+
+#: class-lib/AED_AdminClass.php:196 class-lib/AED_AdminClass.php:705
+#: class-lib/AED_AdminClass.php:707
+msgid "Preview"
+msgstr "Vorschau"
+
+#: class-lib/AED_AdminClass.php:198
+msgid "Remove Image"
+msgstr "Bild entfernen"
+
+#: class-lib/AED_AdminClass.php:200
+msgid "Or enter a URL"
+msgstr "Oder gib eine URL ein"
+
+#: class-lib/AED_AdminClass.php:218
+msgid "Post Types with Excerpt:"
+msgstr "Post Types mit Auszug:"
+
+#: class-lib/AED_AdminClass.php:238
+msgid "Post Types with meta description:"
+msgstr "Post Types mit Meta Beschreibung:"
+
+#: class-lib/AED_AdminClass.php:258
+msgid "Post Types with content (for more tag):"
+msgstr "Post Types mit Inhalt (für das more tag):"
+
+#: class-lib/AED_AdminClass.php:288
+msgid "Post Types with thumbnail:"
+msgstr "Post Types mit Thumbnail:"
+
+#: class-lib/AED_AdminClass.php:308
+msgid "Empty the debug log."
+msgstr "Debug Log leeren."
+
+#: class-lib/AED_AdminClass.php:314
+msgid "OK"
+msgstr "OK"
+
+#: class-lib/AED_AdminClass.php:375
+msgid ""
+"http://wasistlos.waldemarstoffel.com/plugins-fur-wordpress/automated-editing"
+msgstr "http://blog.atelier-fuenf.de/wordpress-plugins/automated-editing"
+
+#: class-lib/AED_AdminClass.php:379
+msgid "Main Options"
+msgstr "Generelle Einstellungen"
+
+#: class-lib/AED_AdminClass.php:380
+msgid "Check Excerpts"
+msgstr "Auszüge prüfen"
+
+#: class-lib/AED_AdminClass.php:381
+msgid "Check Yoast WPSEO meta descriptions"
+msgstr "Yoast WPSEO Meta-Beschreibungen prüfen"
+
+#: class-lib/AED_AdminClass.php:382
+msgid "Check More Tag"
+msgstr "More Tags prüfen"
+
+#: class-lib/AED_AdminClass.php:383
+msgid "Check Thumbnails"
+msgstr "Thumbnails prüfen"
+
+#: class-lib/AED_AdminClass.php:421
+msgid "How should the excerpt be built?"
+msgstr "Wie soll der Auszug generiert werden?"
+
+#: class-lib/AED_AdminClass.php:423
+msgid "Excluding Post Types"
+msgstr "Post Types ignorieren"
+
+#: class-lib/AED_AdminClass.php:429 class-lib/AED_AdminClass.php:505
+#: class-lib/AED_AdminClass.php:581 class-lib/AED_AdminClass.php:653
+#: class-lib/AED_AdminClass.php:753
+msgid "Debug Info"
+msgstr "Info zur Fehlersuche"
+
+#: class-lib/AED_AdminClass.php:431 class-lib/AED_AdminClass.php:507
+#: class-lib/AED_AdminClass.php:583 class-lib/AED_AdminClass.php:655
+#: class-lib/AED_AdminClass.php:755
+msgid "Error Log"
+msgstr "Error Log"
+
+#: class-lib/AED_AdminClass.php:447
+msgid "Check for old posts without excerpt"
+msgstr "Nach alten Artikeln ohne Auszug suchen"
+
+#: class-lib/AED_AdminClass.php:451
+msgid "Please check first for posts without excerpt."
+msgstr "Bitte such erst nach Artikeln ohne Auszug."
+
+#: class-lib/AED_AdminClass.php:457
+#, php-format
+msgid "You have %d %s without excerpt."
+msgstr "Du hast %d %s ohne Auszug."
+
+#: class-lib/AED_AdminClass.php:463
+msgid "Scanning for posts without excerpt can take a long time. Please be patient."
+msgstr "Die Suche nach Artikeln ohne Auszug kann lange dauern. Bitte habe Geduld."
+
+#: class-lib/AED_AdminClass.php:465 class-lib/AED_AdminClass.php:541
+#: class-lib/AED_AdminClass.php:617 class-lib/AED_AdminClass.php:689
+msgid "Check Now"
+msgstr "Jetzt überprüfen"
+
+#: class-lib/AED_AdminClass.php:477
+msgid "Fix old posts without excerpt"
+msgstr "Artikel ohne Auszug reparieren"
+
+#: class-lib/AED_AdminClass.php:479 class-lib/AED_AdminClass.php:555
+#: class-lib/AED_AdminClass.php:629 class-lib/AED_AdminClass.php:727
+msgid "Again, you should be patient with this action."
+msgstr "Auch hier ist wieder Geduld angesagt."
+
+#: class-lib/AED_AdminClass.php:479
+msgid ""
+"If you have a lot of posts that have no excerpt, it might take a while to fix "
+"them."
+msgstr ""
+"Wenn du eine Menge Artikel ohne Auszug hast, könnte es mit dem Reparieren eine "
+"Weile dauern."
+
+#: class-lib/AED_AdminClass.php:481
+msgid ""
+"If you have no other settings for the excerpt, the plugin will take the first "
+"three sentences of the post as default."
+msgstr ""
+"Wenn du keine anderen Einstellungen für den Auszug hast, wird das Plugin die "
+"ersten drei Sätze des Artikels als Standard nehmen."
+
+#: class-lib/AED_AdminClass.php:483 class-lib/AED_AdminClass.php:559
+msgid "Fix Posts"
+msgstr "Artikel Reparieren"
+
+#: class-lib/AED_AdminClass.php:497
+msgid "excerpt"
+msgstr "Auszug"
+
+#: class-lib/AED_AdminClass.php:523
+msgid "Check for old posts without Yoast WPSEO meta descriptions"
+msgstr "Nach alten Artikeln ohne Yoast WPSEO Meta-Beschreibungen suchen"
+
+#: class-lib/AED_AdminClass.php:527
+msgid "Please check first for posts without meta description."
+msgstr "Bitte suche erst nach Artikeln ohne Meta-Beschreibung."
+
+#: class-lib/AED_AdminClass.php:533
+#, php-format
+msgid "You have %d %s without meta description."
+msgstr "Du hast %d %s ohne Meta-Beschreibung."
+
+#: class-lib/AED_AdminClass.php:539
+msgid ""
+"Scanning for posts without meta description can take a long time. Please be "
+"patient."
+msgstr ""
+"Die Suche nach Artikeln ohne Meta-Beschreibung kann lange dauern. Bitte habe "
+"Geduld."
+
+#: class-lib/AED_AdminClass.php:553
+msgid "Fix old posts without meta description"
+msgstr "Artikel ohne Meta-Beschreibung reparieren"
+
+#: class-lib/AED_AdminClass.php:555
+msgid ""
+"If you have a lot of posts that have no meta description, it might take a while "
+"to fix them."
+msgstr ""
+"Wenn du eine Menge Artikel ohne Meta-Beschreibung hast, könnte es mit dem "
+"Reparieren eine Weile dauern."
+
+#: class-lib/AED_AdminClass.php:557
+msgid ""
+"If you have no other settings for the metadesription, the plugin will take the "
+"first three sentences of the post as default and limit the meta description "
+"automatically to 156 signs."
+msgstr ""
+"Wenn du keine anderen Einstellungen für die Meta-Beschreibung hast, wird das "
+"Plugin die ersten drei Sätze des Artikels als Standard nehmen und die Meta "
+"Beschreibung automatisch."
+
+#: class-lib/AED_AdminClass.php:573
+msgid "meta description"
+msgstr "Meta-Beschreibung"
+
+#: class-lib/AED_AdminClass.php:599
+msgid "Check for old posts without &#39;more&#39; tag"
+msgstr "Suche nach alten Artikeln ohne &#39;more&#39; Tag"
+
+#: class-lib/AED_AdminClass.php:603
+msgid "Please check first for posts without &#39;more&#39; tag."
+msgstr "Bitte suche erst nach Artikeln ohne &#39;more&#39; Tag."
+
+#: class-lib/AED_AdminClass.php:609
+#, php-format
+msgid "You have %d %s without &#39;more&#39; tag."
+msgstr "Du hast %d %s ohne &#39;more&#39; Tag."
+
+#: class-lib/AED_AdminClass.php:615
+msgid ""
+"Scanning for posts without &#39;more&#39; tag can take a long time. Please be "
+"patient."
+msgstr ""
+"Die Suche nach Artikeln ohne &#39;more&#39; Tag kann lange dauern. Bitte habe "
+"Geduld."
+
+#: class-lib/AED_AdminClass.php:627
+msgid "Fix old posts without &#39;more&#39; tag"
+msgstr "Artikel ohne &#39;more&#39; Tag reparieren"
+
+#: class-lib/AED_AdminClass.php:629
+msgid ""
+"If you have a lot of posts that have no &#39;more&#39; tag, it might take a "
+"while to fix them."
+msgstr ""
+"Wenn du eine Menge Artikel ohne &#39;more&#39; Tag hast, könnte es mit dem "
+"Reparieren eine Weile dauern."
+
+#: class-lib/AED_AdminClass.php:631
+msgid "Fix &#39;More&#39; Tags"
+msgstr "&#39;More&#39; Tags Reparieren"
+
+#: class-lib/AED_AdminClass.php:645
+msgid "&#39;more&#39; tag"
+msgstr "&#39;more&#39; Tag"
+
+#: class-lib/AED_AdminClass.php:671
+msgid "Check for old posts without thumbnail"
+msgstr "Suche nach alten Artikeln ohne Thumbnail"
+
+#: class-lib/AED_AdminClass.php:675
+msgid "Please check first for posts without thumbnail."
+msgstr "Bitte suche erst nach Artikeln ohne Thumbnail."
+
+#: class-lib/AED_AdminClass.php:681
+#, php-format
+msgid "You have %d %s without thumbnail."
+msgstr "Du hast %d %s ohne Thumbnail."
+
+#: class-lib/AED_AdminClass.php:687
+msgid ""
+"Scanning for posts without featured image can take a long time. Please be "
+"patient."
+msgstr ""
+"Die Suche nach Artikeln ohne Thumbnail kann lange dauern. Bitte habe Geduld."
+
+#: class-lib/AED_AdminClass.php:699
+msgid "New Default Thumbnail"
+msgstr "Neues Standard Thumbnail"
+
+#: class-lib/AED_AdminClass.php:701
+msgid ""
+"The old default thumbnail is on the left side. You can exchange it with the new "
+"one in all posts where it is used."
+msgstr ""
+"Das alte Standard-Miniaturbild ist auf der linken Seite. Du kannst es mit dem "
+"neuen in allen Beiträgen, in denen es verwendet wird, austauschen."
+
+#: class-lib/AED_AdminClass.php:711
+msgid ""
+"Changing the default featured image in all posts can take a long time. Please be "
+"patient."
+msgstr ""
+"Das Standard-Thumbnail in allen Artikeln auszutauschen kann lange dauern. Bitte "
+"habe Geduld."
+
+#: class-lib/AED_AdminClass.php:713
+msgid "Change Default Thumbnail"
+msgstr "Standard-Thumbnail Austauschen"
+
+#: class-lib/AED_AdminClass.php:725
+msgid "Fix old posts without thumbnail"
+msgstr "Artikel ohne Thumbnail reparieren"
+
+#: class-lib/AED_AdminClass.php:727
+msgid ""
+"If you have a lot of posts without thumbnail, it might take a while to fix them."
+msgstr ""
+"Wenn du eine Menge Artikel ohne Thumbnail hast, könnte es mit dem Reparieren "
+"eine Weile dauern."
+
+#: class-lib/AED_AdminClass.php:729
+msgid ""
+"If there are images attached to the post, the plugin will take the first of "
+"those images as the post thumbnail."
+msgstr ""
+"Wenn der Artikel Attachments hat, wird das Plugin das erste dieser Attachments "
+"als Artikelbild nehmen."
+
+#: class-lib/AED_AdminClass.php:731
+msgid "Fix Thumbnails"
+msgstr "Thumbnails Reparieren"
+
+#: class-lib/AED_AdminClass.php:745
+msgid "thumbnail"
+msgstr "Thumbnail"
+
+#: class-lib/AED_AdminClass.php:782
+msgid "Debug Log emptied."
+msgstr "Debug Log geleert."
+
+#: class-lib/AED_AdminClass.php:802
+msgid "Please enter a numeric value for the length of the excerpt."
+msgstr "Bitte gib einen numerischen Wert für die Länge des Auszugs an."
+
+#: class-lib/AED_AdminClass.php:812
+msgid "Please enter a numeric value for the offset."
+msgstr "Bitte gib einen numerischen Wert für den Offset an."
+
+#: class-lib/AED_AdminClass.php:836
+msgid ""
+"Please enter a numeric value for the number of sentences before the &#39;read "
+"more&#39; tag."
+msgstr ""
+"Bitte gib einen numerischen Wert für die Anzahl Sätze ein, nach denen das &#39;"
+"mehr lesen&#39; Tag gesetzt werden soll."
+
+#: class-lib/AED_AdminClass.php:860
+msgid ""
+"The image doesn&#39;t seem to be in the database. Please upload an image that "
+"you want to use as default thumbnail."
+msgstr ""
+"Das Bild scheint nicht in der Datenbank zu sein. Bitte lade ein Bild hoch, das "
+"als Standard-Thumbnail verwendet werden soll."
+
+#: class-lib/AED_AdminClass.php:933
+msgid "Settings saved."
+msgstr "Äanderungen gespeichert."
+
+#: class-lib/AED_AdminClass.php:975
+#, php-format
+msgid "There have been %d %s without excerpt detected."
+msgstr "Es wurden %d %s ohne Auszug gefunden."
+
+#: class-lib/AED_AdminClass.php:991 class-lib/AED_AdminClass.php:1101
+#: class-lib/AED_AdminClass.php:1215 class-lib/AED_AdminClass.php:1331
+msgid "There was nothing to scan."
+msgstr "Es gab nichts zu scannen."
+
+#: class-lib/AED_AdminClass.php:1037 class-lib/AED_AdminClass.php:1147
+#: class-lib/AED_AdminClass.php:1261 class-lib/AED_AdminClass.php:1377
+#, php-format
+msgid "%d %s have been fixed successfully."
+msgstr "%d %s wurden erfolgreich repariert."
+
+#: class-lib/AED_AdminClass.php:1087
+#, php-format
+msgid "There have been %d %s without meta descriptions detected."
+msgstr "Es wurden %d %s ohne Meta-Beschreibung gefunden."
+
+#: class-lib/AED_AdminClass.php:1199
+#, php-format
+msgid "There have been %d %s without &#39;more&#39; tag detected."
+msgstr "Es wurden %d %s ohne &#39;more&#39; Tag gefunden."
+
+#: class-lib/AED_AdminClass.php:1315
+#, php-format
+msgid "There have been %d %s without thumbnail detected."
+msgstr "Es wurden %d %s ohne Thumbnail gefunden."
+
+#: class-lib/AED_AdminClass.php:1432
+#, php-format
+msgid "%d featured images in %s have been changed successfully."
+msgstr "%d Vorschaubilder in %s wurden erfolgreich ausgetauscht."
+
+#: class-lib/AED_AdminClass.php:1465
+msgid ""
+"In the main Options, you can determine how you want to build the excerpt of the "
+"posts and whether or not to set the &#39;more&#39; tag after a certain sentence "
+"of the post."
+msgstr ""
+"In den Optionen kannst du angeben, wie der Auszug der Artikel generiert werden "
+"soll und ob das &#39;more&#39; Tag nach einem bestimmten Satz im Artikel gesetzt "
+"werden soll."
+
+#: class-lib/AED_AdminClass.php:1466
+msgid ""
+"You can upload an image that will be used as the featured image for all posts "
+"without attachments."
+msgstr ""
+"Du kannst ein Bild hochladen, das als Standard-Thumbnail für alle Artikel ohne "
+"Anhänge verwendet wird."
+
+#: class-lib/AED_AdminClass.php:1467
+msgid ""
+"You can check all your old posts for missing excerpts, &#39;more&#39; tags and "
+"thumbnails. If the plugin detects something, you&#39;ll be able to fix the posts "
+"automatically."
+msgstr ""
+"Du kannst alle deinen alten Artikel nach nicht vorhandenen Auszügen, &#39;"
+"More&#39; Tags und Artikelbildern durchsuchen. Falls das Plugin etwas findet, "
+"kannst du die Artikel automatisch reparieren."
+
+#: class-lib/AED_AdminClass.php:1468
+msgid ""
+"Some posts may contain images from outside or no image at all. There might not "
+"enough be text to build an excerpt or to set the &#39;more&#39; tag. Posts like "
+"that you will find back in the list with unfixed posts. You can just click on "
+"the headline and try editing the respective post(s) manually."
+msgstr ""
+"Manche Artikel könnten Bilder von anderen Webseiten oder gar keine Bilder "
+"enthalten. Es könnte nicht genug Text für einen Auszug oder, um das &#39;"
+"More&#39; Tag zu setzen, geben. Solche Artikel findest du in der Liste mit nicht "
+"reparierten Artikeln. Klicke einfach auf die Überschrift und versuche die "
+"entsprechenden Artikel von Hand zu reparieren."
+
+#: class-lib/AED_AdminClass.php:1469
+msgid "The list is not beautiful or something; it&#39;s just there at the moment."
+msgstr "Die Liste ist nicht schön oder so. Sie ist momentan einfach nur da."
+
+#: class-lib/AED_AdminClass.php:1473
+msgid "General"
+msgstr "Allgemein"
+
+#: class-lib/AED_AdminClass.php:1771
+#, php-format
+msgid "%s without %s"
+msgstr "%s ohne %s"
+
+#~ msgid "Automated Editing"
+#~ msgstr "Automated Editing"
+
+#~ msgid ""
+#~ "If working with a lot of editors, who either don't know how to use WP or "
+#~ "don't pay attention, this plugin helps you by adding an excerpt automatically "
+#~ "to every post, that doesn't have one."
+#~ msgstr ""
+#~ "Wenn man mit Redakteuren zusammenarbeitet, die entweder keine Ahnung von WP "
+#~ "haben oder, die nicht aufpassen, hilft dieses Plugin, einen automatischen "
+#~ "Auszug für jeden Artikel zu generieren."
+
+#~ msgid "Waldemar Stoffel"
+#~ msgstr "Waldemar Stoffel"
+
+#~ msgid "http://www.waldemarstoffel.com"
+#~ msgstr "http://www.waldemarstoffel.com"
+
+#~ msgid "Old posts have been scanned for missing excerpts."
+#~ msgstr "Alte Artikel wurden nach Auszügen durchsucht."
+
+#~ msgid "Old posts have been scanned for missing &#39;more&#39; tags."
+#~ msgstr "Alte Artikel wurden nach &#39;more&#39; Tags durchsucht."
+
+#~ msgid "Old posts have been scanned for missing thumbnails."
+#~ msgstr "Alte Artikel wurden nach Artikelbildern durchsucht."
